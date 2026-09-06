@@ -1,0 +1,457 @@
+{
+  "version": "1.0.0",
+  "asOf": "2026-09-06",
+  "periodDays": {
+    "medical": 7,
+    "biweekly": 14
+  },
+  "targets": {
+    "writeBackRate": 1,
+    "staleDaysGreenMedical": 8,
+    "staleDaysGreenBiweekly": 14,
+    "drillCompletionRate": 1,
+    "primarySourceRigor": 1
+  },
+  "metricDefs": [
+    {
+      "id": "drillCompletionRate",
+      "name": "Drill Completion Rate",
+      "formula": "drills_done / drills_expected_in_period",
+      "target": 1,
+      "notes": "Org and team: sum agent drillsDoneInPeriod over team drillsExpectedInPeriod (or org sum of team expectations)."
+    },
+    {
+      "id": "writeBackRate",
+      "name": "Write-Back Rate",
+      "formula": "writebacks / drills_done (N/A if drills_done = 0)",
+      "target": 1,
+      "notes": "Target 100%. Every completed drill should produce a write-back."
+    },
+    {
+      "id": "staleDays",
+      "name": "Stale Days",
+      "formula": "days since lastWriteBackAt",
+      "target": "Medical green ≤8; biweekly green ≤14; yellow = green+7; else red; null/gray if never",
+      "notes": "Color chips: green / yellow / red / gray."
+    },
+    {
+      "id": "skillsPromoted",
+      "name": "Skills Promoted",
+      "formula": "sum skillsPromotedCount",
+      "target": null,
+      "notes": "Cumulative promotions in the current reporting window."
+    },
+    {
+      "id": "primarySourceRigor",
+      "name": "Primary Source Rigor",
+      "formula": "primarySourceCitedCount / writeBacks",
+      "target": 1,
+      "notes": "Per agent or team. N/A if writeBacks = 0."
+    },
+    {
+      "id": "capabilityScore",
+      "name": "Capability Score",
+      "formula": "rubric 1–5 from JSON (not computed)",
+      "target": null,
+      "notes": "1 Emerging · 2 Developing · 3 Competent · 4 Proficient · 5 Expert"
+    }
+  ],
+  "skills": [
+    {
+      "id": "berean-ce-write-back",
+      "name": "Berean CE Write-Back",
+      "description": "Structured CE drill write-back with primary source citation"
+    },
+    {
+      "id": "handoff-packet",
+      "name": "Handoff Packet",
+      "description": "Durable handoff packet for cross-lane continuity"
+    }
+  ],
+  "teams": [
+    {
+      "id": "medical",
+      "name": "Medical faculty",
+      "cadence": "weekly",
+      "drillsExpectedInPeriod": 1,
+      "agents": [
+        {
+          "id": "med-lead",
+          "name": "Med Lead",
+          "role": "Medical Lead",
+          "capabilityScore": 4,
+          "capabilityNotes": "Whitson joint brief",
+          "skills": ["berean-ce-write-back"],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-06",
+          "primarySourceCitedCount": 1,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "cardiology-lead",
+          "name": "Cardiology Lead",
+          "role": "Cardiology",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "pcp-proctor",
+          "name": "PCP Proctor",
+          "role": "Primary Care Proctor",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "od-proctor",
+          "name": "OD Proctor",
+          "role": "Optometry Proctor",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "med-evidence",
+          "name": "Med Evidence",
+          "role": "Evidence",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "peptide-specialist",
+          "name": "Peptide Specialist",
+          "role": "Peptide Specialist",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        }
+      ]
+    },
+    {
+      "id": "eng",
+      "name": "Eng bench",
+      "cadence": "biweekly",
+      "drillsExpectedInPeriod": 1,
+      "agents": [
+        {
+          "id": "eng-lead",
+          "name": "Eng Lead",
+          "role": "Engineering Lead",
+          "capabilityScore": 5,
+          "capabilityNotes": "Week-1 CE: Zoho Hub Books design pick A; owns biweekly cadence",
+          "skills": ["berean-ce-write-back", "handoff-packet"],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-06",
+          "primarySourceCitedCount": 1,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "backend-eng",
+          "name": "Backend Eng",
+          "role": "Backend",
+          "capabilityScore": 2,
+          "capabilityNotes": "stream queued",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "frontend-eng",
+          "name": "Frontend Eng",
+          "role": "Frontend",
+          "capabilityScore": 2,
+          "capabilityNotes": "stream queued",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "platform-eng",
+          "name": "Platform Eng",
+          "role": "Platform",
+          "capabilityScore": 2,
+          "capabilityNotes": "stream queued",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "test-pilot",
+          "name": "Test Pilot",
+          "role": "QA / Test",
+          "capabilityScore": 2,
+          "capabilityNotes": "stream queued",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        }
+      ]
+    },
+    {
+      "id": "factory",
+      "name": "Factory bench",
+      "cadence": "biweekly",
+      "drillsExpectedInPeriod": 1,
+      "agents": [
+        {
+          "id": "ie-lead",
+          "name": "IE Lead",
+          "role": "Industrial Engineering Lead",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "layout-ie",
+          "name": "Layout IE",
+          "role": "Layout IE",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "controls-eng",
+          "name": "Controls Eng",
+          "role": "Controls",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "commissioning-eng",
+          "name": "Commissioning Eng",
+          "role": "Commissioning",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "mfg-process-eng",
+          "name": "Mfg Process Eng",
+          "role": "Manufacturing Process",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        }
+      ]
+    },
+    {
+      "id": "personal",
+      "name": "Personal roster",
+      "cadence": "biweekly",
+      "drillsExpectedInPeriod": 1,
+      "agents": [
+        {
+          "id": "mason",
+          "name": "Mason",
+          "role": "Personal",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "wealth-lead",
+          "name": "Wealth Lead",
+          "role": "Wealth",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "equity-tax",
+          "name": "Equity Tax",
+          "role": "Equity / Tax",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "name": "Work leads",
+      "cadence": "biweekly",
+      "drillsExpectedInPeriod": 1,
+      "agents": [
+        {
+          "id": "hayes-calder",
+          "name": "Hayes Calder",
+          "role": "Work Lead",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "allied-books",
+          "name": "Allied Books",
+          "role": "Books",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "hr-helper",
+          "name": "HR Helper",
+          "role": "HR",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "pm-jv-deals",
+          "name": "Project Manager JV Deals",
+          "role": "PM / JV Deals",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        }
+      ]
+    },
+    {
+      "id": "cos",
+      "name": "COS / Darcy",
+      "cadence": "meta",
+      "drillsExpectedInPeriod": 1,
+      "agents": [
+        {
+          "id": "darcy",
+          "name": "Darcy",
+          "role": "Chief of Staff",
+          "capabilityScore": 4,
+          "capabilityNotes": "Instituted org-wide CE; owns brief routing",
+          "skills": ["berean-ce-write-back"],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        }
+      ]
+    }
+  ]
+}

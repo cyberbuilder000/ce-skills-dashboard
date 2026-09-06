@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Skills &amp; Capabilities / CE progress dashboard. Wall-safe: no PHI; no Spinoff content." />
+  <title>CE Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="container" id="app">
+    <header class="site-header">
+      <div>
+        <h1>Skills &amp; Capabilities · CE Progress</h1>
+        <p class="subtitle">Continuing-education drills, write-backs, and capability scores — JSON-driven</p>
+      </div>
+      <div class="asof-badge">As of <strong id="asof-display">…</strong></div>
+    </header>
+
+    <p id="loading" class="loading">Loading metrics from <code>data/ce-metrics.json</code>…</p>
+
+    <div id="dashboard" hidden>
+      <nav class="toc" id="toc" aria-label="Section navigation"></nav>
+
+      <section id="summary">
+        <h2 class="section-title">Org summary</h2>
+        <div class="summary-grid" id="summary-cards"></div>
+      </section>
+
+      <section id="benchmarking">
+        <h2 class="section-title">Benchmarking methods</h2>
+        <div class="metrics-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Metric</th>
+                <th>Formula</th>
+                <th>Target</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody id="benchmarking-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="teams">
+        <h2 class="section-title">Teams &amp; agents <span class="count">per-team tables</span></h2>
+        <div id="teams-root"></div>
+      </section>
+
+      <section id="rubric">
+        <h2 class="section-title">CapabilityScore rubric (1–5)</h2>
+        <div class="rubric-grid" id="rubric-legend"></div>
+      </section>
+
+      <footer class="site-footer" id="wall">
+        <h2>Chinese wall notice</h2>
+        <p>
+          This dashboard is <strong>wall-safe</strong>: it must not contain PHI (protected health information)
+          and must not include Spinoff strategy or Spinoff Forge content. Personal roster excludes Spinoff.
+          Refresh by editing <code>data/ce-metrics.json</code> only with wall-compliant fields.
+        </p>
+      </footer>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
