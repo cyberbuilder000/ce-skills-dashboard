@@ -181,6 +181,64 @@
     );
   }
 
+
+  function renderWallBanner(data) {
+    const el = document.getElementById("wall-banner");
+    if (!el) return;
+    const wall = data.wall || {};
+    const notice = wall.notice || "Public CE stats only. No PHI. No Spinoff content.";
+    const url = wall.canonicalUrl || "";
+    const redacted = (wall.redactedLanes || []).join(" · ");
+    const publish = wall.publishDefault || "github-pages";
+    el.hidden = false;
+    el.innerHTML = `
+      <div class="wall-banner-label">Chinese wall</div>
+      <p class="wall-banner-notice">${escapeHtml(notice)}</p>
+      <div class="wall-banner-meta">
+        ${redacted ? `<span>Redacted: <strong>${escapeHtml(redacted)}</strong></span>` : ""}
+        <span>Publish default: <strong>${escapeHtml(publish)}</strong></span>
+        ${url ? `<span>Canonical: <a href="${escapeHtml(url)}" rel="noopener">${escapeHtml(url)}</a></span>` : ""}
+      </div>`;
+  }
+
+  function renderProgression(data) {
+    const prog = data.ceProgression;
+    if (!prog) return;
+
+    const titleEl = document.getElementById("progression-title");
+    if (titleEl && prog.title) titleEl.textContent = prog.title;
+
+    const noteEl = document.getElementById("progression-redacted");
+    if (noteEl) {
+      noteEl.textContent = prog.redactedNote || "";
+    }
+
+    const lanesEl = document.getElementById("progression-lanes");
+    if (lanesEl) {
+      const lanes = prog.visibleLanes || [];
+      lanesEl.innerHTML = lanes.length
+        ? `<div class="label">Visible lanes</div>` +
+          lanes
+            .map((l) => `<span class="chip progression-lane-chip">${escapeHtml(l)}</span>`)
+            .join("")
+        : "";
+    }
+
+    const listEl = document.getElementById("progression-list");
+    if (listEl) {
+      const milestones = prog.milestones || [];
+      listEl.innerHTML = milestones
+        .map(
+          (m) => `<li>
+            <time datetime="${escapeHtml(m.date)}">${escapeHtml(m.date)}</time>
+            <span class="lane-tag">${escapeHtml(m.lane)}</span>
+            <span class="milestone-item">${escapeHtml(m.item)}</span>
+          </li>`
+        )
+        .join("");
+    }
+  }
+
   function renderSummary(org, asOf) {
     const el = document.getElementById("summary-cards");
     const staleClass = org.staleAlerts > 0 ? "alert-stale" : "ok";
@@ -344,6 +402,7 @@
     const nav = document.getElementById("toc");
     const links = [
       { href: "#summary", label: "Summary" },
+      { href: "#progression", label: "CE progression" },
       { href: "#benchmarking", label: "Benchmarking" },
       { href: "#teams", label: "Teams" },
       { href: "#rubric", label: "Rubric" },
@@ -381,8 +440,10 @@
     document.getElementById("asof-display").textContent = data.asOf;
     document.title = `CE Dashboard · ${data.asOf}`;
 
+    renderWallBanner(data);
     renderToc(data);
     renderSummary(org, data.asOf);
+    renderProgression(data);
     renderBenchmarking(data);
     renderTeams(data, asOfDate);
     renderRubric();

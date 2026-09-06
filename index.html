@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Skills &amp; Capabilities / CE progress dashboard. Wall-safe: no PHI; no Spinoff content." />
+  <meta name="description" content="Skills &amp; Capabilities / CE progress dashboard. Wall-safe: no PHI; no Spinoff content. Canonical on GitHub Pages." />
   <title>CE Dashboard</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,6 +20,8 @@
       <div class="asof-badge">As of <strong id="asof-display">…</strong></div>
     </header>
 
+    <aside id="wall-banner" class="wall-banner" role="note" aria-label="Chinese wall notice" hidden></aside>
+
     <p id="loading" class="loading">Loading metrics from <code>data/ce-metrics.json</code>…</p>
 
     <div id="dashboard" hidden>
@@ -28,6 +30,13 @@
       <section id="summary">
         <h2 class="section-title">Org summary</h2>
         <div class="summary-grid" id="summary-cards"></div>
+      </section>
+
+      <section id="progression">
+        <h2 class="section-title" id="progression-title">CE progression (Spinoff-redacted)</h2>
+        <p class="progression-redacted" id="progression-redacted"></p>
+        <div class="progression-lanes" id="progression-lanes"></div>
+        <ol class="progression-list" id="progression-list"></ol>
       </section>
 
       <section id="benchmarking">
@@ -60,9 +69,15 @@
       <footer class="site-footer" id="wall">
         <h2>Chinese wall notice</h2>
         <p>
-          This dashboard is <strong>wall-safe</strong>: it must not contain PHI (protected health information)
-          and must not include Spinoff strategy or Spinoff Forge content. Personal roster excludes Spinoff.
-          Refresh by editing <code>data/ce-metrics.json</code> only with wall-compliant fields.
+          This dashboard is <strong>wall-safe</strong>: <strong>no PHI</strong> (protected health information).
+          <strong>Spinoff Forge and Spinoff strategy are deliberately redacted</strong> — no Spinoff content, agents, or progression appears here.
+          Personal roster excludes Spinoff.
+        </p>
+        <p>
+          <strong>Canonical publish path:</strong> GitHub Pages
+          (<a href="https://cyberbuilder000.github.io/ce-skills-dashboard/">cyberbuilder000.github.io/ce-skills-dashboard</a>).
+          Future publishes: edit <code>data/ce-metrics.json</code>, commit, and push to GitHub.
+          <strong>here.now is not used for future publishes</strong> — leave here.now alone (document only; do not delete or overwrite it for this dashboard).
         </p>
       </footer>
     </div>

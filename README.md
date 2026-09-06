@@ -2,25 +2,40 @@
 
 Static single-page dashboard for continuing-education (CE) drill progress, write-backs, skills, and capability scores.
 
-**Wall-safe:** no PHI; no Spinoff strategy / Spinoff Forge content. Personal roster excludes Spinoff.
+**Canonical URL:** [https://cyberbuilder000.github.io/ce-skills-dashboard/](https://cyberbuilder000.github.io/ce-skills-dashboard/)
+
+**Publish default:** GitHub Pages (edit `data/ce-metrics.json`, commit, `git push` to `main`).
+
+**here.now:** Leave alone per Michael. Document only — do **not** delete, overwrite, or use here.now for future publishes of this dashboard.
+
+**Wall:** Spinoff-redacted CE progression. Public CE stats only. No PHI. No Spinoff Forge or Spinoff strategy content, agents, or progression. Personal roster excludes Spinoff.
+
+## Canonical publish (Michael standing order 2026-09-06)
+
+- **Canonical URL:** https://cyberbuilder000.github.io/ce-skills-dashboard/
+- **Default publish path:** GitHub Pages — edit `data/ce-metrics.json`, commit, `git push` (no build).
+- **here.now:** leave alone; do not use for future publishes.
+- **Wall:** public CE progression is **Spinoff-redacted** — no Spinoff Forge / Spinoff strategy content, agents, or milestones.
+
 
 ## Files
 
 | Path | Role |
 |------|------|
-| `index.html` | Page shell |
-| `css/styles.css` | Layout & stale color chips |
+| `index.html` | Page shell (wall banner + progression + teams) |
+| `css/styles.css` | Layout, wall banner, progression, stale chips |
 | `js/app.js` | Loads JSON, computes metrics, renders UI |
 | `data/ce-metrics.json` | **Source of truth** — edit this to refresh |
 
-## Refresh path
+## Refresh / publish (GitHub default)
 
 1. After each CE write-back (or period close), update `data/ce-metrics.json`:
    - bump `asOf` (ISO date)
    - set agent `drillsDoneInPeriod`, `writeBacksInPeriod`, `lastWriteBackAt`
    - update `primarySourceCitedCount`, `skillsPromotedCount`, `skills[]`, `capabilityScore` / notes
-2. Republish the whole `ce-dashboard/` folder to any static host (no build step).
-3. Open `index.html` over **HTTP** (browsers block `fetch` of JSON under `file://`).
+   - optionally append Spinoff-**safe** milestones under `ceProgression.milestones`
+2. Commit and push to GitHub (`main`). GitHub Pages serves the canonical site.
+3. Do **not** publish via here.now for this dashboard going forward.
 
 Local preview:
 
@@ -48,20 +63,16 @@ Period lengths in JSON: `periodDays.medical` (7), `periodDays.biweekly` (14). Ea
 ## Wall rules
 
 - **No PHI** — do not put patient identifiers, clinical notes, or protected health data in JSON or UI copy.
-- **No Spinoff** — omit Spinoff Forge and Spinoff strategy entirely from roster, skills, and notes.
+- **No Spinoff** — omit Spinoff Forge and Spinoff strategy entirely from roster, skills, notes, and **CE progression** (`ceProgression.redactedLanes` / `redactedNote`).
+- Public progression is **Spinoff-redacted** — only `visibleLanes` appear.
 - Keep `wallCompliant: true` only when the agent’s recorded CE content respects the wall.
-
-## Publish to any static host
-
-Copy the folder as-is (HTML/CSS/JS/JSON). Examples:
-
-- **GitHub Pages / GitLab Pages / Cloudflare Pages / Netlify / S3+CloudFront / nginx** — upload or sync `ce-dashboard/` to the site root or a subpath.
-- Ensure `data/ce-metrics.json` is publicly fetchable next to `index.html` (same origin or correct CORS if split).
-- No Node build, no bundler required.
+- `wall.publishDefault` is `github-pages`; `wall.canonicalUrl` points at the live Pages site.
 
 ## Schema (high level)
 
-- Root: `version`, `asOf`, `periodDays`, `targets`, `metricDefs[]`, `teams[]`, optional `skills[]`
+- Root: `version`, `asOf`, `periodDays`, `targets`, `wall`, `ceProgression`, `metricDefs[]`, `teams[]`, optional `skills[]`
+- `wall`: `publishDefault`, `canonicalUrl`, `redactedLanes[]`, `notice`
+- `ceProgression`: `title`, `visibleLanes[]`, `redactedNote`, `milestones[]` (`date`, `lane`, `item`)
 - Team: `id`, `name`, `cadence` (`weekly` | `biweekly` | `meta`), `drillsExpectedInPeriod`, `agents[]`
 - Agent: `id`, `name`, `role`, `capabilityScore`, `capabilityNotes`, `skills[]`, `drillsDoneInPeriod`, `writeBacksInPeriod`, `lastWriteBackAt` (ISO date or `null`), `primarySourceCitedCount`, `skillsPromotedCount`, `wallCompliant`
 

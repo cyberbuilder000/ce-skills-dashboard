@@ -12,6 +12,44 @@
     "drillCompletionRate": 1,
     "primarySourceRigor": 1
   },
+  "wall": {
+    "publishDefault": "github-pages",
+    "canonicalUrl": "https://cyberbuilder000.github.io/ce-skills-dashboard/",
+    "redactedLanes": [
+      "Spinoff Forge",
+      "Spinoff strategy"
+    ],
+    "notice": "Public CE stats only. No PHI. No Spinoff Forge or Spinoff strategy content, agents, or progression. Personal roster excludes Spinoff."
+  },
+  "ceProgression": {
+    "title": "CE progression (Spinoff-redacted)",
+    "visibleLanes": [
+      "Medical faculty",
+      "Eng bench",
+      "Factory bench",
+      "Personal roster (excl. Spinoff)",
+      "Work leads",
+      "COS / Darcy"
+    ],
+    "redactedNote": "Spinoff Forge / Spinoff strategy deliberately omitted from this public progression by Chinese wall.",
+    "milestones": [
+      {
+        "date": "2026-09-06",
+        "lane": "Medical",
+        "item": "Whitson joint brief write-back"
+      },
+      {
+        "date": "2026-09-06",
+        "lane": "Eng",
+        "item": "Week-1 Berean CE: Zoho Hub Books design pick A"
+      },
+      {
+        "date": "2026-09-06",
+        "lane": "Org",
+        "item": "Public CE dashboard live on GitHub Pages"
+      }
+    ]
+  },
   "metricDefs": [
     {
       "id": "drillCompletionRate",
@@ -31,7 +69,7 @@
       "id": "staleDays",
       "name": "Stale Days",
       "formula": "days since lastWriteBackAt",
-      "target": "Medical green ≤8; biweekly green ≤14; yellow = green+7; else red; null/gray if never",
+      "target": "Medical green \u22648; biweekly green \u226414; yellow = green+7; else red; null/gray if never",
       "notes": "Color chips: green / yellow / red / gray."
     },
     {
@@ -51,9 +89,9 @@
     {
       "id": "capabilityScore",
       "name": "Capability Score",
-      "formula": "rubric 1–5 from JSON (not computed)",
+      "formula": "rubric 1\u20135 from JSON (not computed)",
       "target": null,
-      "notes": "1 Emerging · 2 Developing · 3 Competent · 4 Proficient · 5 Expert"
+      "notes": "1 Emerging \u00b7 2 Developing \u00b7 3 Competent \u00b7 4 Proficient \u00b7 5 Expert"
     }
   ],
   "skills": [
@@ -81,7 +119,9 @@
           "role": "Medical Lead",
           "capabilityScore": 4,
           "capabilityNotes": "Whitson joint brief",
-          "skills": ["berean-ce-write-back"],
+          "skills": [
+            "berean-ce-write-back"
+          ],
           "drillsDoneInPeriod": 1,
           "writeBacksInPeriod": 1,
           "lastWriteBackAt": "2026-09-06",
@@ -173,7 +213,10 @@
           "role": "Engineering Lead",
           "capabilityScore": 5,
           "capabilityNotes": "Week-1 CE: Zoho Hub Books design pick A; owns biweekly cadence",
-          "skills": ["berean-ce-write-back", "handoff-packet"],
+          "skills": [
+            "berean-ce-write-back",
+            "handoff-packet"
+          ],
           "drillsDoneInPeriod": 1,
           "writeBacksInPeriod": 1,
           "lastWriteBackAt": "2026-09-06",
@@ -443,7 +486,9 @@
           "role": "Chief of Staff",
           "capabilityScore": 4,
           "capabilityNotes": "Instituted org-wide CE; owns brief routing",
-          "skills": ["berean-ce-write-back"],
+          "skills": [
+            "berean-ce-write-back"
+          ],
           "drillsDoneInPeriod": 0,
           "writeBacksInPeriod": 0,
           "lastWriteBackAt": null,
