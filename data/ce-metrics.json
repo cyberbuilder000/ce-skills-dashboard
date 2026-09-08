@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-09-06",
+  "asOf": "2026-09-08",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -35,18 +35,33 @@
     "milestones": [
       {
         "date": "2026-09-06",
-        "lane": "Medical",
-        "item": "Whitson joint brief write-back"
-      },
-      {
-        "date": "2026-09-06",
         "lane": "Eng",
         "item": "Week-1 Berean CE: Zoho Hub Books design pick A"
       },
       {
         "date": "2026-09-06",
+        "lane": "Medical",
+        "item": "Whitson joint brief write-back"
+      },
+      {
+        "date": "2026-09-06",
         "lane": "Org",
         "item": "Public CE dashboard live on GitHub Pages"
+      },
+      {
+        "date": "2026-09-07",
+        "lane": "Eng",
+        "item": "HITL medical-data-removal tracker live on staging"
+      },
+      {
+        "date": "2026-09-08",
+        "lane": "Eng",
+        "item": "HITL credit-notices tracker shipping (send gated off)"
+      },
+      {
+        "date": "2026-09-08",
+        "lane": "Eng",
+        "item": "Zoho Books Hub / open-API shortlist (Books-first; Hub URL still pending)"
       }
     ]
   },
@@ -348,13 +363,15 @@
           "id": "mfg-process-eng",
           "name": "Mfg Process Eng",
           "role": "Manufacturing Process",
-          "capabilityScore": 2,
-          "capabilityNotes": "",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "Week-1 CE: rejected powder 8\u201313k t/yr as verified plant capacity vs Powder-X Rev 1",
+          "skills": [
+            "berean-ce-write-back"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-06",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
@@ -370,13 +387,15 @@
           "id": "mason",
           "name": "Mason",
           "role": "Personal",
-          "capabilityScore": 2,
-          "capabilityNotes": "",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "Week-1 CE: \u00a783(b) 30-day clock hard (IRC \u00a783(b)(2)); no casual extension",
+          "skills": [
+            "berean-ce-write-back"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-06",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -485,14 +504,14 @@
           "name": "Darcy",
           "role": "Chief of Staff",
           "capabilityScore": 4,
-          "capabilityNotes": "Instituted org-wide CE; owns brief routing",
+          "capabilityNotes": "Instituted org-wide CE; Monday discernment CE routine; week-1 lock rejected unnecessary FYI pings",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-06",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
