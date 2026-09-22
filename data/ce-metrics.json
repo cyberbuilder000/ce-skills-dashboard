@@ -87,6 +87,11 @@
         "date": "2026-09-21",
         "lane": "Eng",
         "item": "Test Pilot CE: CLEAR = user-path; Preview SSO \u2260 product FAIL \u2014 Eng bench ORG CE complete"
+      },
+      {
+        "date": "2026-09-21",
+        "lane": "Org",
+        "item": "ORG CE board bump: Med/Factory IE/Wealth/Equity Tax/Books/HR/Darcy 2026-09-21"
       }
     ]
   },
@@ -158,13 +163,13 @@
           "name": "Med Lead",
           "role": "Medical Lead",
           "capabilityScore": 4,
-          "capabilityNotes": "Whitson joint brief",
+          "capabilityNotes": "ORG CE: TRAVERSE/NEJM 2023 MACE noninferior; AF/AKI/PE higher; TRT\u2260enclomiphene",
           "skills": [
             "berean-ce-write-back"
           ],
           "drillsDoneInPeriod": 1,
           "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-06",
+          "lastWriteBackAt": "2026-09-21",
           "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
@@ -343,13 +348,15 @@
           "id": "ie-lead",
           "name": "IE Lead",
           "role": "Industrial Engineering Lead",
-          "capabilityScore": 2,
-          "capabilityNotes": "",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "ORG CE: Powder-X Rev 1 \u2260 OEM six-position/19\u201331k lb; appliance envelope only",
+          "skills": [
+            "berean-ce-write-back"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -439,13 +446,15 @@
           "id": "wealth-lead",
           "name": "Wealth Lead",
           "role": "Wealth",
-          "capabilityScore": 2,
-          "capabilityNotes": "",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "ORG CE: FDIC \u00a7330.10 trust accounts, 5\u00d7SMDIA cap",
+          "skills": [
+            "berean-ce-write-back"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -453,13 +462,15 @@
           "id": "equity-tax",
           "name": "Equity Tax",
           "role": "Equity / Tax",
-          "capabilityScore": 2,
-          "capabilityNotes": "",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "ORG CE: services-for-stock CAN be QSBS; underwriting carve-out only",
+          "skills": [
+            "berean-ce-write-back"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
@@ -489,13 +500,15 @@
           "id": "allied-books",
           "name": "Allied Books",
           "role": "Books",
-          "capabilityScore": 2,
-          "capabilityNotes": "",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "ORG CE: WT PO 022095-13A Supp 001 +$706k; no AR match in Drive",
+          "skills": [
+            "berean-ce-write-back"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -503,13 +516,15 @@
           "id": "hr-helper",
           "name": "HR Helper",
           "role": "HR",
-          "capabilityScore": 2,
-          "capabilityNotes": "",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "ORG CE: TX at-will \u2260 progressive discipline never required; contracts/CBA/published process matter",
+          "skills": [
+            "berean-ce-write-back"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -540,13 +555,13 @@
           "name": "Darcy",
           "role": "Chief of Staff",
           "capabilityScore": 4,
-          "capabilityNotes": "Instituted org-wide CE; Monday discernment CE routine; week-1 lock rejected unnecessary FYI pings",
+          "capabilityNotes": "ORG CE discernment: lane-lead cascade \u2260 fan every specialist; Medical via Med Lead only",
           "skills": [
             "berean-ce-write-back"
           ],
           "drillsDoneInPeriod": 1,
           "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-06",
+          "lastWriteBackAt": "2026-09-21",
           "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
