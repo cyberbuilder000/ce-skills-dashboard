@@ -92,6 +92,11 @@
         "date": "2026-09-21",
         "lane": "Org",
         "item": "ORG CE board bump: Med/Factory IE/Wealth/Equity Tax/Books/HR/Darcy 2026-09-21"
+      },
+      {
+        "date": "2026-09-21",
+        "lane": "Personal",
+        "item": "Mason CE: FCRA \u00a71681i dispute timeline (reinvestigation \u2260 auto-delete)"
       }
     ]
   },
@@ -447,14 +452,14 @@
           "name": "Mason",
           "role": "Personal",
           "capabilityScore": 3,
-          "capabilityNotes": "Week-1 CE: \u00a783(b) 30-day clock hard (IRC \u00a783(b)(2)); no casual extension",
+          "capabilityNotes": "ORG CE: FCRA \u00a71681i \u2014 30-day clock is reinvestigation (or early-delete) deadline, not automatic delete",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-06",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
