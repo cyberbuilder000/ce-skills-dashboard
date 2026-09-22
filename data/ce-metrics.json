@@ -224,13 +224,15 @@
           "id": "med-evidence",
           "name": "Med Evidence",
           "role": "Evidence",
-          "capabilityScore": 2,
-          "capabilityNotes": "",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "LOCKED ASA 2016 \u2014 p<0.05 \u2260 clinical importance (Principle 5).",
+          "skills": [
+            "berean-ce-write-back"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -238,13 +240,15 @@
           "id": "peptide-specialist",
           "name": "Peptide Specialist",
           "role": "Peptide Specialist",
-          "capabilityScore": 2,
-          "capabilityNotes": "",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "LOCKED Vasireddi HSS 2025 \u2014 no published BPC-157 MSK human RCT efficacy.",
+          "skills": [
+            "berean-ce-write-back"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
