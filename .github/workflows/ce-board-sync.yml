@@ -1,0 +1,77 @@
+name: CE board sync
+
+# Daily ~09:00 America/Chicago, or when Darcy / Eng Lead / Michael runs the workflow.
+# Empty data/pending-bumps/ is a no-op. Websocket real-time is out of scope.
+on:
+  schedule:
+    # 14:00 UTC = 09:00 CDT; 15:00 UTC = 09:00 CST. The job keeps only the run
+    # whose America/Chicago hour is 09, so the board syncs once a day.
+    - cron: "0 14 * * *"
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Optional note for why this sync was called"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ce-board-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Skip unless 09:00 America/Chicago
+        id: gate
+        if: github.event_name == 'schedule'
+        run: |
+          hour=$(TZ=America/Chicago date +%H)
+          echo "chicago_hour=$hour" >> "$GITHUB_OUTPUT"
+          if [ "$hour" != "09" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Not 09:00 America/Chicago (hour=$hour). No-op."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "09:00 America/Chicago. Applying pending bumps."
+          fi
+
+      - name: Apply pending bumps and push
+        if: github.event_name != 'schedule' || steps.gate.outputs.skip != 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch --depth=1 origin main
+            git reset --hard origin/main
+            node scripts/apply-pending-bumps.mjs
+            if [ -z "$(git status --porcelain)" ]; then
+              echo "No pending bumps. Board unchanged."
+              exit 0
+            fi
+            git add data/ce-metrics.json data/pending-bumps data/applied-bumps
+            git commit -m "ce: apply pending board bumps"
+            if git push origin HEAD:main; then
+              echo "Pushed pending bumps to main."
+              exit 0
+            fi
+            echo "Push rejected; retrying ($attempt)."
+          done
+          echo "Failed to push after retries."
+          exit 1

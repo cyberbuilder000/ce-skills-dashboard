@@ -26,6 +26,11 @@ Static single-page dashboard for continuing-education (CE) drill progress, write
 | `css/styles.css` | Layout, wall banner, progression, stale chips |
 | `js/app.js` | Loads JSON, computes metrics, renders UI |
 | `data/ce-metrics.json` | **Source of truth** — edit this to refresh |
+| `data/pending-bumps/` | JSON bump events waiting for sync (empty = no-op) |
+| `data/applied-bumps/` | Bump events already folded into metrics |
+| `scripts/bump-ce-agent.mjs` | Idempotent one-agent edit of `ce-metrics.json` |
+| `scripts/apply-pending-bumps.mjs` | Apply every pending event, or exit 0 if none |
+| `.github/workflows/ce-board-sync.yml` | Daily ~09:00 America/Chicago, plus **Run workflow** |
 
 ## Refresh / publish (GitHub default)
 
@@ -36,6 +41,58 @@ Static single-page dashboard for continuing-education (CE) drill progress, write
    - optionally append Spinoff-**safe** milestones under `ceProgression.milestones`
 2. Commit and push to GitHub (`main`). GitHub Pages serves the canonical site.
 3. Do **not** publish via here.now for this dashboard going forward.
+
+Prefer the bump contract below so the board stays current without a hand edit of every field. Pushing to `main` is what GitHub Pages serves (no build).
+
+## Bump after CE (keep the board current)
+
+Websocket real-time is out of scope. The public board updates when `main` changes: about once a day, or when Darcy / Eng Lead / Michael **calls** the sync.
+
+**Chinese wall:** never write Spinoff Forge, Spinoff strategy, Spinoff agents, or Spinoff progression into `data/ce-metrics.json`, `data/pending-bumps/`, notes, or milestones. No PHI. The bump script refuses any text that mentions Spinoff. Do not file a bump for a drill that did not happen, and do not invent roster rows.
+
+### 1. File the write-back
+
+Drive title (human record only — this repo does not read Drive):
+
+```text
+CE WB | <agentId> | <YYYY-MM-DD> | <one-line lock>
+```
+
+Example: `CE WB | hr-helper | 2026-09-21 | TX at-will is not a promise that progressive discipline is never required`
+
+### 2. Record the same facts as a JSON event
+
+Add `data/pending-bumps/<YYYY-MM-DD>-<agentId>.json`:
+
+```json
+{
+  "agentId": "hr-helper",
+  "date": "2026-09-21",
+  "notes": "ORG CE: one-line lock citing the primary source."
+}
+```
+
+Required: `agentId` (must already exist on the roster), `date` (`YYYY-MM-DD`), `notes` (non-empty). Optional: `lane` and `milestone` together append one `ceProgression` milestone. Unknown agents are rejected. Do not commit the sample above as a real event.
+
+Or apply it locally, then commit and push `data/ce-metrics.json`:
+
+```bash
+node scripts/bump-ce-agent.mjs \
+  --agent hr-helper \
+  --date 2026-09-21 \
+  --notes "ORG CE: one-line lock citing the primary source."
+```
+
+Idempotent per agent + date + notes: running it again does not increment. A **new date** increments `drillsDoneInPeriod`, `writeBacksInPeriod`, and `primarySourceCitedCount`, sets `lastWriteBackAt` and `capabilityNotes`, and adds `berean-ce-write-back` if missing. `wallCompliant` stays true. `capabilityScore` rises from 2 to 3 only when the previous notes were empty (never lowered). `asOf` moves forward only. Same-day re-runs may correct notes without a second increment. A date older than `lastWriteBackAt` is refused.
+
+### 3. Sync so Pages serves it
+
+- **Daily:** [CE board sync](https://github.com/cyberbuilder000/ce-skills-dashboard/actions/workflows/ce-board-sync.yml) runs at about **09:00 America/Chicago**. No pending JSON means the run changes nothing.
+- **When called:** Darcy, Eng Lead, or Michael opens that Action and chooses **Run workflow** on `main` (`workflow_dispatch`). The event file must already be on `main`. An empty `data/pending-bumps/` folder is a no-op.
+
+The workflow moves applied files to `data/applied-bumps/` and pushes the metrics commit to `main`. GitHub Pages then serves the update.
+
+Calling the sync does not require Neon or HITL.
 
 Local preview:
 
@@ -78,4 +135,4 @@ Period lengths in JSON: `periodDays.medical` (7), `periodDays.biweekly` (14). Ea
 
 Baseline roster (2026-09-06) includes Medical, Eng, Factory, Personal (excl. Spinoff), Work, and COS/Darcy — see JSON.
 
-<!-- pages-rebuild: 2026-09-21T20:25 CT Eng ORG CE complete -->
+<!-- pages-rebuild: 2026-09-21 ORG CE non-Eng board bump + daily sync -->
