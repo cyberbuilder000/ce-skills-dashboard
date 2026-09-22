@@ -77,6 +77,11 @@
         "date": "2026-09-21",
         "lane": "Eng",
         "item": "Platform CE: guest tip vs Preview SSO; Frontend CE: toast-only \u2260 user-path done"
+      },
+      {
+        "date": "2026-09-21",
+        "lane": "Eng",
+        "item": "Backend CE: FORCE RLS vs BYPASSRLS / Neon owner role"
       }
     ]
   },
@@ -259,13 +264,15 @@
           "id": "backend-eng",
           "name": "Backend Eng",
           "role": "Backend",
-          "capabilityScore": 2,
-          "capabilityNotes": "stream queued",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "ORG CE: FORCE RLS \u2260 enough on Neon owner; need NOBYPASSRLS app role + SET LOCAL ROLE",
+          "skills": [
+            "berean-ce-write-back"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
