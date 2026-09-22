@@ -194,13 +194,15 @@
           "id": "pcp-proctor",
           "name": "PCP Proctor",
           "role": "Primary Care Proctor",
-          "capabilityScore": 2,
-          "capabilityNotes": "",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "LOCKED ACC 2016 ECDP \u2014 SAMS \u2260 permanent abandon-all-statins; structured rechallenge.",
+          "skills": [
+            "berean-ce-write-back"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
