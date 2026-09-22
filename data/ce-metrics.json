@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-09-08",
+  "asOf": "2026-09-21",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -62,6 +62,16 @@
         "date": "2026-09-08",
         "lane": "Eng",
         "item": "Zoho Books Hub / open-API shortlist (Books-first; Hub URL still pending)"
+      },
+      {
+        "date": "2026-09-21",
+        "lane": "Eng",
+        "item": "ORG CE: Eng Lead invite user-path lock; cascade to FE/BE/Platform/TP"
+      },
+      {
+        "date": "2026-09-20",
+        "lane": "Eng",
+        "item": "Forced CE: hospitality invitee gate = Vercel Deployment Protection not Clerk"
       }
     ]
   },
@@ -227,15 +237,16 @@
           "name": "Eng Lead",
           "role": "Engineering Lead",
           "capabilityScore": 5,
-          "capabilityNotes": "Week-1 CE: Zoho Hub Books design pick A; owns biweekly cadence",
+          "capabilityNotes": "ORG CE 2026-09-21 invite user-path; forced 2026-09-20 Vercel protection vs Clerk",
           "skills": [
             "berean-ce-write-back",
-            "handoff-packet"
+            "handoff-packet",
+            "user-path-completion"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-06",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
