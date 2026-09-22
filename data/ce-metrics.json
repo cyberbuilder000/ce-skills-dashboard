@@ -72,6 +72,11 @@
         "date": "2026-09-20",
         "lane": "Eng",
         "item": "Forced CE: hospitality invitee gate = Vercel Deployment Protection not Clerk"
+      },
+      {
+        "date": "2026-09-21",
+        "lane": "Eng",
+        "item": "Platform CE: guest tip vs Preview SSO; Frontend CE: toast-only \u2260 user-path done"
       }
     ]
   },
@@ -268,13 +273,16 @@
           "id": "frontend-eng",
           "name": "Frontend Eng",
           "role": "Frontend",
-          "capabilityScore": 2,
-          "capabilityNotes": "stream queued",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "ORG CE: toast-only create \u2260 done; GOV.UK confirmation + user-path create\u2192hold\u2192transmit",
+          "skills": [
+            "berean-ce-write-back",
+            "user-path-completion"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -282,13 +290,15 @@
           "id": "platform-eng",
           "name": "Platform Eng",
           "role": "Platform",
-          "capabilityScore": 2,
-          "capabilityNotes": "stream queued",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "ORG CE: READY tip \u2260 guest-public under Vercel SSO protection; prove with unauth alias GET",
+          "skills": [
+            "berean-ce-write-back"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
