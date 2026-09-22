@@ -77,3 +77,5 @@ Period lengths in JSON: `periodDays.medical` (7), `periodDays.biweekly` (14). Ea
 - Agent: `id`, `name`, `role`, `capabilityScore`, `capabilityNotes`, `skills[]`, `drillsDoneInPeriod`, `writeBacksInPeriod`, `lastWriteBackAt` (ISO date or `null`), `primarySourceCitedCount`, `skillsPromotedCount`, `wallCompliant`
 
 Baseline roster (2026-09-06) includes Medical, Eng, Factory, Personal (excl. Spinoff), Work, and COS/Darcy — see JSON.
+
+<!-- pages-rebuild: 2026-09-21T20:25 CT Eng ORG CE complete -->
