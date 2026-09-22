@@ -486,13 +486,15 @@
           "id": "hayes-calder",
           "name": "Hayes Calder",
           "role": "Work Lead",
-          "capabilityScore": 2,
-          "capabilityNotes": "",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "ORG CE: 526 Austin Ave Cromwell \u2014 10,480 SF for lease; reject aggregator $/SF without Cromwell rent",
+          "skills": [
+            "berean-ce-write-back"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -532,13 +534,15 @@
           "id": "pm-jv-deals",
           "name": "Project Manager JV Deals",
           "role": "PM / JV Deals",
-          "capabilityScore": 2,
-          "capabilityNotes": "",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "ORG CE: FEC feeder 4 MW \u2260 available DC at 1500 kVA pad-mount service",
+          "skills": [
+            "berean-ce-write-back"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
