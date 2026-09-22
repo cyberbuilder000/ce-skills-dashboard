@@ -82,6 +82,11 @@
         "date": "2026-09-21",
         "lane": "Eng",
         "item": "Backend CE: FORCE RLS vs BYPASSRLS / Neon owner role"
+      },
+      {
+        "date": "2026-09-21",
+        "lane": "Eng",
+        "item": "Test Pilot CE: CLEAR = user-path; Preview SSO \u2260 product FAIL \u2014 Eng bench ORG CE complete"
       }
     ]
   },
@@ -313,13 +318,16 @@
           "id": "test-pilot",
           "name": "Test Pilot",
           "role": "QA / Test",
-          "capabilityScore": 2,
-          "capabilityNotes": "stream queued",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "ORG CE: CLEAR needs user-path handoff; Preview SSO \u2260 product FAIL",
+          "skills": [
+            "berean-ce-write-back",
+            "user-path-completion"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-09-21",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
