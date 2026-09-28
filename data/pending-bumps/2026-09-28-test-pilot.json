@@ -1,0 +1,1 @@
+{"agentId":"test-pilot","date":"2026-09-28","notes":"SPA tip smoke on reused staging alias: hard-refresh (or cache-bust) required; soft nav alone can false-FAIL/CLEAR"}
