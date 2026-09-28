@@ -1,0 +1,1 @@
+{"agentId":"backend-eng","date":"2026-09-28","notes":"Clerk RBAC: missing/undefined role fails closed — never default to admin/michael (official Clerk basic RBAC guide)"}
