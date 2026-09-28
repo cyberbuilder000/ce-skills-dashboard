@@ -168,14 +168,14 @@
           "name": "Med Lead",
           "role": "Medical Lead",
           "capabilityScore": 4,
-          "capabilityNotes": "ORG CE: TRAVERSE/NEJM 2023 MACE noninferior; AF/AKI/PE higher; TRT\u2260enclomiphene",
+          "capabilityNotes": "ONTT: steroids speed recovery but do not improve final VA vs placebo; oral prednisone alone not indicated (Beck NEJM 1992 / Arch Ophthalmol 1993)",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -184,14 +184,14 @@
           "name": "Cardiology Lead",
           "role": "Cardiology",
           "capabilityScore": 3,
-          "capabilityNotes": "LOCKED DIG 1997 \u2014 digoxin no all-cause mortality cut in HFrEF (RR 0.99); HF hosp \u2193.",
+          "capabilityNotes": "SGLT2i HFrEF benefit not restricted to T2D \u2014 DAPA-HF/EMPEROR-Reduced consistent with and without diabetes",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -200,14 +200,14 @@
           "name": "PCP Proctor",
           "role": "Primary Care Proctor",
           "capabilityScore": 3,
-          "capabilityNotes": "LOCKED ACC 2016 ECDP \u2014 SAMS \u2260 permanent abandon-all-statins; structured rechallenge.",
+          "capabilityNotes": "USPSTF 2022 Grade D against initiating low-dose aspirin for primary CVD prevention in adults \u226560",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -216,14 +216,14 @@
           "name": "OD Proctor",
           "role": "Optometry Proctor",
           "capabilityScore": 3,
-          "capabilityNotes": "LOCKED no-RAPD \u2260 exclude ON (bilateral/symmetric possible) \u2014 Biousse/Newman 2012 Ch.12.",
+          "capabilityNotes": "AAO 2024 PVD PPP: good acuity \u2260 skip prompt dilated peripheral exam for acute flashes/floaters",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -232,14 +232,14 @@
           "name": "Med Evidence",
           "role": "Evidence",
           "capabilityScore": 3,
-          "capabilityNotes": "LOCKED ASA 2016 \u2014 p<0.05 \u2260 clinical importance (Principle 5).",
+          "capabilityNotes": "IFCC C-RIDL: within reference interval \u2260 disease ruled out / healthy confirmed (RI \u2260 clinical decision limit)",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -290,14 +290,14 @@
           "name": "Backend Eng",
           "role": "Backend",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: FORCE RLS \u2260 enough on Neon owner; need NOBYPASSRLS app role + SET LOCAL ROLE",
+          "capabilityNotes": "Clerk RBAC: missing/undefined role fails closed \u2014 never default to admin/michael (official Clerk basic RBAC guide)",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -306,15 +306,15 @@
           "name": "Frontend Eng",
           "role": "Frontend",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: toast-only create \u2260 done; GOV.UK confirmation + user-path create\u2192hold\u2192transmit",
+          "capabilityNotes": "CWE-602: NEXT_PUBLIC send flag / disabled Send UI \u2260 outbound hard-off; server must 403 until Michael go",
           "skills": [
             "berean-ce-write-back",
             "user-path-completion"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -323,14 +323,14 @@
           "name": "Platform Eng",
           "role": "Platform",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: READY tip \u2260 guest-public under Vercel SSO protection; prove with unauth alias GET",
+          "capabilityNotes": "Vercel tip alias (CLI/preview): required runtime secrets must be on Preview; Production-only env does not cover tip deploys",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -339,15 +339,15 @@
           "name": "Test Pilot",
           "role": "QA / Test",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: CLEAR needs user-path handoff; Preview SSO \u2260 product FAIL",
+          "capabilityNotes": "SPA tip smoke on reused staging alias: hard-refresh (or cache-bust) required; soft nav alone can false-FAIL/CLEAR",
           "skills": [
             "berean-ce-write-back",
             "user-path-completion"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
@@ -364,14 +364,14 @@
           "name": "IE Lead",
           "role": "Industrial Engineering Lead",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: Powder-X Rev 1 \u2260 OEM six-position/19\u201331k lb; appliance envelope only",
+          "capabilityNotes": "Powder-X Rev 1 ($1.49M) is current equipment budgetary figure; Jul 20 $1.066M superseded archive (still not a PO)",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -396,14 +396,14 @@
           "name": "Controls Eng",
           "role": "Controls",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: Peddi brochure \u2260 Safety Category / I/O map (L1582-D).",
+          "capabilityNotes": "Penta quote CE line + UL on compressor/dust \u2260 verified US enclosure/interlock plant-safety package",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -412,14 +412,14 @@
           "name": "Commissioning Eng",
           "role": "Commissioning",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: Nisbet no-sprinkler print \u2260 AHJ sign-off.",
+          "capabilityNotes": "Facility Utility Loads peak summary = powder-lane planning estimate only \u2014 REJECT as verified McGregor plant service design",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -428,14 +428,14 @@
           "name": "Mfg Process Eng",
           "role": "Manufacturing Process",
           "capabilityScore": 3,
-          "capabilityNotes": "Week-1 CE: rejected powder 8\u201313k t/yr as verified plant capacity vs Powder-X Rev 1",
+          "capabilityNotes": "REJECT owner-deck 6 batch positions / 19\u201331k lb charge as verified takt inputs; Rev 1 has no line count or charge weight",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-06",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
@@ -452,14 +452,14 @@
           "name": "Mason",
           "role": "Personal",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: FCRA \u00a71681i \u2014 30-day clock is reinvestigation (or early-delete) deadline, not automatic delete",
+          "capabilityNotes": "FDCPA \u00a71692g: timely written dispute \u2192 cease collection until verification mailed; no extinguishment / no auto credit-report delete",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -468,14 +468,14 @@
           "name": "Wealth Lead",
           "role": "Wealth",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: FDIC \u00a7330.10 trust accounts, 5\u00d7SMDIA cap",
+          "capabilityNotes": "IRC \u00a783(f): without \u00a783(b), LTCG holding period on restricted stock starts at vest/transferability, not grant",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -484,14 +484,14 @@
           "name": "Equity Tax",
           "role": "Equity / Tax",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: services-for-stock CAN be QSBS; underwriting carve-out only",
+          "capabilityNotes": "Rev. Proc. 93-27 / 2001-43: qualifying profits interest for services not automatic FMV ordinary income at grant",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
@@ -508,14 +508,14 @@
           "name": "Hayes Calder",
           "role": "Work Lead",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: 526 Austin Ave Cromwell \u2014 10,480 SF for lease; reject aggregator $/SF without Cromwell rent",
+          "capabilityNotes": "MLS 21174373 (3697 N Rock Creek Loop): Sold/Closed 2026-08-28 at last ask $275k (Sirka/Coldwell; reject stale Pending mirrors)",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -524,14 +524,14 @@
           "name": "Allied Books",
           "role": "Books",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: WT PO 022095-13A Supp 001 +$706k; no AR match in Drive",
+          "capabilityNotes": "No new countable Allied PO/invoice primary this cycle beyond locked 022095-13A Supp 001; Zoho Books still unavailable",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -540,14 +540,14 @@
           "name": "HR Helper",
           "role": "HR",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: TX at-will \u2260 progressive discipline never required; contracts/CBA/published process matter",
+          "capabilityNotes": "FLSA: salary alone \u2260 overtime exempt \u2014 need salary basis + level + duties (29 U.S.C. \u00a7213(a)(1) / 29 CFR Part 541)",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -556,14 +556,14 @@
           "name": "Project Manager JV Deals",
           "role": "PM / JV Deals",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: FEC feeder 4 MW \u2260 available DC at 1500 kVA pad-mount service",
+          "capabilityNotes": "SWLA Jul 2 2026 letter = conceptual-vision support only; zoning/land use/permitting remain future requirements",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
