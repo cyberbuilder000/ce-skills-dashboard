@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-09-21",
+  "asOf": "2026-09-28",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -272,16 +272,16 @@
           "name": "Eng Lead",
           "role": "Engineering Lead",
           "capabilityScore": 5,
-          "capabilityNotes": "ORG CE 2026-09-21 invite user-path; forced 2026-09-20 Vercel protection vs Clerk",
+          "capabilityNotes": "ORG CE: invite/API-green \u2260 tip/CLEAR without copyable user-path pack (PRODUCT_LOCKS + invite-tools).",
           "skills": [
             "berean-ce-write-back",
             "handoff-packet",
             "user-path-completion"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-09-28",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
