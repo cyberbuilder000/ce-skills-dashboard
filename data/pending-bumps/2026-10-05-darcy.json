@@ -1,0 +1,1 @@
+{"agentId":"darcy","date":"2026-10-05","notes":"Discernment: 5-field cron has no year field, so a date-bounded schedule recurs annually; a routine only self-expires if its prompt says so"}
