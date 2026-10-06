@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-09-28",
+  "asOf": "2026-10-06",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -200,14 +200,14 @@
           "name": "PCP Proctor",
           "role": "Primary Care Proctor",
           "capabilityScore": 3,
-          "capabilityNotes": "USPSTF 2022 Grade D against initiating low-dose aspirin for primary CVD prevention in adults \u226560",
+          "capabilityNotes": "DCP (Ishani NEJM 2022): switching HCTZ to chlorthalidone did not lower MACE (HR 1.04, 0.94-1.16) and raised hypokalemia; reject routine switch for CV benefit",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-06",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -580,14 +580,14 @@
           "name": "Darcy",
           "role": "Chief of Staff",
           "capabilityScore": 4,
-          "capabilityNotes": "ORG CE discernment: lane-lead cascade \u2260 fan every specialist; Medical via Med Lead only",
+          "capabilityNotes": "Discernment: 5-field cron has no year field, so a date-bounded schedule recurs annually; a routine only self-expires if its prompt says so",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-10-05",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
