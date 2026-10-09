@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-10-06",
+  "asOf": "2026-10-09",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -272,16 +272,16 @@
           "name": "Eng Lead",
           "role": "Engineering Lead",
           "capabilityScore": 5,
-          "capabilityNotes": "ORG CE: invite/API-green \u2260 tip/CLEAR without copyable user-path pack (PRODUCT_LOCKS + invite-tools).",
+          "capabilityNotes": "ORG CE: Drive write-back is human record only; board moves only via pending-bumps JSON + ce-board-sync (README, apply-pending-bumps.mjs).",
           "skills": [
             "berean-ce-write-back",
             "handoff-packet",
             "user-path-completion"
           ],
-          "drillsDoneInPeriod": 3,
-          "writeBacksInPeriod": 3,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 3,
+          "drillsDoneInPeriod": 4,
+          "writeBacksInPeriod": 4,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 4,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -290,14 +290,14 @@
           "name": "Backend Eng",
           "role": "Backend",
           "capabilityScore": 3,
-          "capabilityNotes": "Clerk RBAC: missing/undefined role fails closed \u2014 never default to admin/michael (official Clerk basic RBAC guide)",
+          "capabilityNotes": "ORG CE: AAS allocate is fail-soft; DB commit first, AgentMail errors return a warning not a failure (actions.ts + notify.ts).",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -306,15 +306,15 @@
           "name": "Frontend Eng",
           "role": "Frontend",
           "capabilityScore": 3,
-          "capabilityNotes": "CWE-602: NEXT_PUBLIC send flag / disabled Send UI \u2260 outbound hard-off; server must 403 until Michael go",
+          "capabilityNotes": "ORG CE: AAS past-game hide is server-side (listUpcomingGames + createRequestAction isGameUpcoming, CT cutoff), not UI-only.",
           "skills": [
             "berean-ce-write-back",
             "user-path-completion"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -323,14 +323,14 @@
           "name": "Platform Eng",
           "role": "Platform",
           "capabilityScore": 3,
-          "capabilityNotes": "Vercel tip alias (CLI/preview): required runtime secrets must be on Preview; Production-only env does not cover tip deploys",
+          "capabilityNotes": "ORG CE: Pages lags main (legacy pages-build ~1 min, cancels superseded builds, max-age=600 CDN); verify latest run + live JSON.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -339,15 +339,15 @@
           "name": "Test Pilot",
           "role": "QA / Test",
           "capabilityScore": 3,
-          "capabilityNotes": "SPA tip smoke on reused staging alias: hard-refresh (or cache-bust) required; soft nav alone can false-FAIL/CLEAR",
+          "capabilityNotes": "ORG CE: aas-hospitality.vercel.app public (/ 200 app HTML, /admin Clerk protect-rewrite 404); no Vercel SSO/401.",
           "skills": [
             "berean-ce-write-back",
             "user-path-completion"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
