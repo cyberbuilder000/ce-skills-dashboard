@@ -1,0 +1,5 @@
+{
+  "agentId": "frontend-eng",
+  "date": "2026-10-09",
+  "notes": "ORG CE: AAS past-game hide is server-side (listUpcomingGames + createRequestAction isGameUpcoming, CT cutoff), not UI-only."
+}
