@@ -1,0 +1,5 @@
+{
+  "agentId": "test-pilot",
+  "date": "2026-10-09",
+  "notes": "ORG CE: aas-hospitality.vercel.app public (/ 200 app HTML, /admin Clerk protect-rewrite 404); no Vercel SSO/401."
+}
