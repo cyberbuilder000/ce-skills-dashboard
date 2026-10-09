@@ -364,14 +364,14 @@
           "name": "IE Lead",
           "role": "Industrial Engineering Lead",
           "capabilityScore": 3,
-          "capabilityNotes": "Powder-X Rev 1 ($1.49M) is current equipment budgetary figure; Jul 20 $1.066M superseded archive (still not a PO)",
+          "capabilityNotes": "ORG CE: Rejected (overclaim) \u2014 The Powder Building Utility sheet is the plant electrical/gas service design for the McGregor site.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -380,14 +380,14 @@
           "name": "Layout IE",
           "role": "Layout IE",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: overlays proposed until surveyed (Nisbet 2023 + foundations Mar 2026).",
+          "capabilityNotes": "ORG CE: Rejected (overclaim) \u2014 Master Plan Zone H is a defined staging/expansion area.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -396,14 +396,14 @@
           "name": "Controls Eng",
           "role": "Controls",
           "capabilityScore": 3,
-          "capabilityNotes": "Penta quote CE line + UL on compressor/dust \u2260 verified US enclosure/interlock plant-safety package",
+          "capabilityNotes": "ORG CE: Rejected (overclaim) \u2014 Powder-X Rev 1 scope includes integrated line controls for the conveyor/whole line.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -412,14 +412,14 @@
           "name": "Commissioning Eng",
           "role": "Commissioning",
           "capabilityScore": 3,
-          "capabilityNotes": "Facility Utility Loads peak summary = powder-lane planning estimate only \u2014 REJECT as verified McGregor plant service design",
+          "capabilityNotes": "ORG CE: Rejected (overclaim) \u2014 Powder-X Rev 1 includes installation, startup and commissioning to rate.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -428,14 +428,14 @@
           "name": "Mfg Process Eng",
           "role": "Manufacturing Process",
           "capabilityScore": 3,
-          "capabilityNotes": "REJECT owner-deck 6 batch positions / 19\u201331k lb charge as verified takt inputs; Rev 1 has no line count or charge weight",
+          "capabilityNotes": "ORG CE: Rejected (overclaim) \u2014 The Penta 12kW quote guarantees a cut rate/throughput usable for capacity planning.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
