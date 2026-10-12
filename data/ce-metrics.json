@@ -168,14 +168,14 @@
           "name": "Med Lead",
           "role": "Medical Lead",
           "capabilityScore": 4,
-          "capabilityNotes": "ONTT: steroids speed recovery but do not improve final VA vs placebo; oral prednisone alone not indicated (Beck NEJM 1992 / Arch Ophthalmol 1993)",
+          "capabilityNotes": "BRIDGE (Douketis NEJM 2015): in AF on warfarin, no bridging was noninferior for ATE (0.4% vs 0.3%) with less major bleeding (1.3% vs 3.2%); not for mechanical valves or very high risk.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -184,14 +184,14 @@
           "name": "Cardiology Lead",
           "role": "Cardiology",
           "capabilityScore": 3,
-          "capabilityNotes": "SGLT2i HFrEF benefit not restricted to T2D \u2014 DAPA-HF/EMPEROR-Reduced consistent with and without diabetes",
+          "capabilityNotes": "AFIRE (Yasuda NEJM 2019): AF + stable CAD, rivaroxaban alone noninferior to adding antiplatelet, with less major bleeding and lower mortality; not recent ACS/PCI.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -200,14 +200,14 @@
           "name": "PCP Proctor",
           "role": "Primary Care Proctor",
           "capabilityScore": 3,
-          "capabilityNotes": "DCP (Ishani NEJM 2022): switching HCTZ to chlorthalidone did not lower MACE (HR 1.04, 0.94-1.16) and raised hypokalemia; reject routine switch for CV benefit",
+          "capabilityNotes": "ACCORD (Gerstein NEJM 2008): A1c target <6.0% in high-CV-risk T2D raised mortality (HR 1.22) without lowering the primary CV outcome; reject intensive target.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 3,
-          "writeBacksInPeriod": 3,
-          "lastWriteBackAt": "2026-10-06",
-          "primarySourceCitedCount": 3,
+          "drillsDoneInPeriod": 4,
+          "writeBacksInPeriod": 4,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 4,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -216,14 +216,14 @@
           "name": "OD Proctor",
           "role": "Optometry Proctor",
           "capabilityScore": 3,
-          "capabilityNotes": "AAO 2024 PVD PPP: good acuity \u2260 skip prompt dilated peripheral exam for acute flashes/floaters",
+          "capabilityNotes": "Baltimore Eye Survey (Sommer 1991) + CNTGS 1998: IOP <21 mmHg does not rule out glaucoma; diagnose by optic nerve and field, and IOP lowering still slows NTG.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -232,14 +232,14 @@
           "name": "Med Evidence",
           "role": "Evidence",
           "capabilityScore": 3,
-          "capabilityNotes": "IFCC C-RIDL: within reference interval \u2260 disease ruled out / healthy confirmed (RI \u2260 clinical decision limit)",
+          "capabilityNotes": "ISIS-2 astrology subgroup + Sun BMJ 2010: a subgroup effect in a positive RCT is a hypothesis until it meets credibility criteria and replicates.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -248,14 +248,14 @@
           "name": "Peptide Specialist",
           "role": "Peptide Specialist",
           "capabilityScore": 3,
-          "capabilityNotes": "LOCKED Vasireddi HSS 2025 \u2014 no published BPC-157 MSK human RCT efficacy.",
+          "capabilityNotes": "GSH feedback on GCL is nonallosteric (glutamate-site + thiol-site binding), not allosteric (Richman & Meister, JBC 1975); durable suppression from exogenous GSH unproven.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-09-21",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
@@ -468,14 +468,14 @@
           "name": "Wealth Lead",
           "role": "Wealth",
           "capabilityScore": 3,
-          "capabilityNotes": "IRC \u00a783(f): without \u00a783(b), LTCG holding period on restricted stock starts at vest/transferability, not grant",
+          "capabilityNotes": "SIPC (15 USC 78fff-3; SEC SIPA-186): $500k per customer per capacity incl. $250k cash cap, fixed through 2031; bank-sweep cash is not SIPC, only FDIC pass-through.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -484,14 +484,14 @@
           "name": "Equity Tax",
           "role": "Equity / Tax",
           "capabilityScore": 3,
-          "capabilityNotes": "Rev. Proc. 93-27 / 2001-43: qualifying profits interest for services not automatic FMV ordinary income at grant",
+          "capabilityNotes": "IRC 1202 as amended by Pub. L. 119-21: stock issued after 7/4/2025 gets 50/75/100% QSBS exclusion at 3/4/5 yrs, $15M cap, $75M gross-assets test; still C-corp stock only.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
@@ -508,14 +508,14 @@
           "name": "Hayes Calder",
           "role": "Work Lead",
           "capabilityScore": 3,
-          "capabilityNotes": "MLS 21174373 (3697 N Rock Creek Loop): Sold/Closed 2026-08-28 at last ask $275k (Sirka/Coldwell; reject stale Pending mirrors)",
+          "capabilityNotes": "MLS 21256349 (1013 Austin Ave, Waco): Active at $775k after 9/15/2026 cut from $795k (NTREIS IDX); MLS SF and tax not CAD-verified.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -524,14 +524,14 @@
           "name": "Allied Books",
           "role": "Books",
           "capabilityScore": 3,
-          "capabilityNotes": "No new countable Allied PO/invoice primary this cycle beyond locked 022095-13A Supp 001; Zoho Books still unavailable",
+          "capabilityNotes": "PO 022095-13A Supp 001 face roll-forward and words/figures tie; single lump-sum PCI line means no per-item SOV tie-out; seller-side contract doc is not AP leakage.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -540,14 +540,14 @@
           "name": "HR Helper",
           "role": "HR",
           "capabilityScore": 3,
-          "capabilityNotes": "FLSA: salary alone \u2260 overtime exempt \u2014 need salary basis + level + duties (29 U.S.C. \u00a7213(a)(1) / 29 CFR Part 541)",
+          "capabilityNotes": "NY Labor Law 194-b / NYC Admin Code 8-107(32): pay-range duty turns on where work is performed or reports, not applicant residency; TX on-site role with no NY work or reporting is outside both.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -556,14 +556,14 @@
           "name": "Project Manager JV Deals",
           "role": "PM / JV Deals",
           "capabilityScore": 3,
-          "capabilityNotes": "SWLA Jul 2 2026 letter = conceptual-vision support only; zoning/land use/permitting remain future requirements",
+          "capabilityNotes": "Lake Charles acreage is originator marketing only (~800 campus and 94.7 staging, separate areas); no recorded instrument, so no '895 acres' or site-control claim.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
