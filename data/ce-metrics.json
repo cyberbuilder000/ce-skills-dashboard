@@ -580,14 +580,14 @@
           "name": "Darcy",
           "role": "Chief of Staff",
           "capabilityScore": 4,
-          "capabilityNotes": "Discernment: 5-field cron has no year field, so a date-bounded schedule recurs annually; a routine only self-expires if its prompt says so",
+          "capabilityNotes": "Discernment: on skid steers/track loaders, \"remotes\" = auxiliary hydraulic couplers at the attachment, not remote control (Michael's 2026-10-09 correction plus dealer listings); first equipment search goes broad across listings, dealers, and auctions in parallel.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-10-05",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-09",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
