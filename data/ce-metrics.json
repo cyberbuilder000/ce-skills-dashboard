@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-19",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -540,14 +540,14 @@
           "name": "HR Helper",
           "role": "HR",
           "capabilityScore": 3,
-          "capabilityNotes": "NY Labor Law 194-b / NYC Admin Code 8-107(32): pay-range duty turns on where work is performed or reports, not applicant residency; TX on-site role with no NY work or reporting is outside both.",
+          "capabilityNotes": "40 TAC 821.25 + TWC Payday Law guidance: TX unused vacation/sick/PTO is owed on separation only if a written policy or agreement specifically promises it; Labor Code 61.014 sets final-wage timing, not a leave-cashout right.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 3,
-          "writeBacksInPeriod": 3,
-          "lastWriteBackAt": "2026-10-09",
-          "primarySourceCitedCount": 3,
+          "drillsDoneInPeriod": 4,
+          "writeBacksInPeriod": 4,
+          "lastWriteBackAt": "2026-10-19",
+          "primarySourceCitedCount": 4,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
