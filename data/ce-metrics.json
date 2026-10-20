@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-20",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -184,14 +184,14 @@
           "name": "Cardiology Lead",
           "role": "Cardiology",
           "capabilityScore": 3,
-          "capabilityNotes": "AFIRE (Yasuda NEJM 2019): AF + stable CAD, rivaroxaban alone noninferior to adding antiplatelet, with less major bleeding and lower mortality; not recent ACS/PCI.",
+          "capabilityNotes": "REDUCE-AMI (Yndigegn NEJM 2024) + BBTC IPD (Kristensen NEJM 2026): post-MI with LVEF >=50% and no other indication, routine long-term beta-blocker did not cut death/MI/HF; not HFrEF or other indications.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 3,
-          "writeBacksInPeriod": 3,
-          "lastWriteBackAt": "2026-10-09",
-          "primarySourceCitedCount": 3,
+          "drillsDoneInPeriod": 4,
+          "writeBacksInPeriod": 4,
+          "lastWriteBackAt": "2026-10-20",
+          "primarySourceCitedCount": 4,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
