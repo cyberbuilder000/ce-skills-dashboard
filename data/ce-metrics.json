@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-22",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -580,14 +580,14 @@
           "name": "Darcy",
           "role": "Chief of Staff",
           "capabilityScore": 4,
-          "capabilityNotes": "Discernment: on skid steers/track loaders, \"remotes\" = auxiliary hydraulic couplers at the attachment, not remote control (Michael's 2026-10-09 correction plus dealer listings); first equipment search goes broad across listings, dealers, and auctions in parallel.",
+          "capabilityNotes": "Discernment: federal EAP exempt salary floor in 2026 is $684/wk (29 CFR 541.600(a)); vacated 2024 levels removed from CFR by 91 FR 27833 (May 15, 2026). Close 'to verify' caveats against point-in-time CFR + Federal Register, not summaries.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 3,
-          "writeBacksInPeriod": 3,
-          "lastWriteBackAt": "2026-10-09",
-          "primarySourceCitedCount": 3,
+          "drillsDoneInPeriod": 4,
+          "writeBacksInPeriod": 4,
+          "lastWriteBackAt": "2026-10-22",
+          "primarySourceCitedCount": 4,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
