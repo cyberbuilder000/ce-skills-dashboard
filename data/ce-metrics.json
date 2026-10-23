@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -563,13 +563,15 @@
           "id": "portfolio-scout",
           "name": "Portfolio Scout",
           "role": "Research",
-          "capabilityScore": 2,
-          "capabilityNotes": "",
-          "skills": [],
-          "drillsDoneInPeriod": 0,
-          "writeBacksInPeriod": 0,
-          "lastWriteBackAt": null,
-          "primarySourceCitedCount": 0,
+          "capabilityScore": 3,
+          "capabilityNotes": "Berean CE write-back filed.",
+          "skills": [
+            "berean-ce-write-back"
+          ],
+          "drillsDoneInPeriod": 1,
+          "writeBacksInPeriod": 1,
+          "lastWriteBackAt": "2026-10-23",
+          "primarySourceCitedCount": 1,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
