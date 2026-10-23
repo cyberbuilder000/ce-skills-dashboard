@@ -484,14 +484,14 @@
           "name": "Mason",
           "role": "Personal",
           "capabilityScore": 3,
-          "capabilityNotes": "FDCPA \u00a71692g: timely written dispute \u2192 cease collection until verification mailed; no extinguishment / no auto credit-report delete",
+          "capabilityNotes": "Berean CE write-back filed.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 3,
-          "writeBacksInPeriod": 3,
-          "lastWriteBackAt": "2026-09-28",
-          "primarySourceCitedCount": 3,
+          "drillsDoneInPeriod": 5,
+          "writeBacksInPeriod": 5,
+          "lastWriteBackAt": "2026-10-23",
+          "primarySourceCitedCount": 5,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
