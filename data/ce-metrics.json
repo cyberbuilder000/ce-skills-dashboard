@@ -350,6 +350,34 @@
           "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
+        },
+        {
+          "id": "adversary",
+          "name": "Adversary",
+          "role": "Red team / Review",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "machine-medic",
+          "name": "Machine Medic",
+          "role": "Device health / IT",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
         }
       ]
     },
@@ -494,6 +522,48 @@
           "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
+        },
+        {
+          "id": "dc-strategist",
+          "name": "DC Strategist",
+          "role": "Strategy",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "dc-counsel",
+          "name": "DC Counsel",
+          "role": "Counsel",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "portfolio-scout",
+          "name": "Portfolio Scout",
+          "role": "Research",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
         }
       ]
     },
@@ -564,6 +634,34 @@
           "writeBacksInPeriod": 3,
           "lastWriteBackAt": "2026-10-09",
           "primarySourceCitedCount": 3,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "as-ops-lead",
+          "name": "AS Ops Lead",
+          "role": "Ops / Safety manuals lead",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
+          "skillsPromotedCount": 0,
+          "wallCompliant": true
+        },
+        {
+          "id": "construction-legal",
+          "name": "Construction Legal",
+          "role": "Construction contracts counsel",
+          "capabilityScore": 2,
+          "capabilityNotes": "",
+          "skills": [],
+          "drillsDoneInPeriod": 0,
+          "writeBacksInPeriod": 0,
+          "lastWriteBackAt": null,
+          "primarySourceCitedCount": 0,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
