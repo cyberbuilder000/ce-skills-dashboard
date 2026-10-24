@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-24",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -692,14 +692,14 @@
           "name": "Darcy",
           "role": "Chief of Staff",
           "capabilityScore": 4,
-          "capabilityNotes": "Discernment: federal EAP exempt salary floor in 2026 is $684/wk (29 CFR 541.600(a)); vacated 2024 levels removed from CFR by 91 FR 27833 (May 15, 2026). Close 'to verify' caveats against point-in-time CFR + Federal Register, not summaries.",
+          "capabilityNotes": "Discernment sprint: failure-mode review locked 7 rules (route don't author, verify before stating or correcting, voice-name read-back, one notice per event, screenshot from real capture, re-read before second edit, honest coverage). Primary-source refresh: IRS Pub 926 (2026) household FICA threshold $3,000, FUTA $1,000/qtr; AgentMail send API supports cc/bcc.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 4,
-          "writeBacksInPeriod": 4,
-          "lastWriteBackAt": "2026-10-22",
-          "primarySourceCitedCount": 4,
+          "drillsDoneInPeriod": 5,
+          "writeBacksInPeriod": 5,
+          "lastWriteBackAt": "2026-10-24",
+          "primarySourceCitedCount": 5,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
