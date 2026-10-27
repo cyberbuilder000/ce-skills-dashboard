@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-10-24",
+  "asOf": "2026-10-25",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -168,14 +168,14 @@
           "name": "Med Lead",
           "role": "Medical Lead",
           "capabilityScore": 4,
-          "capabilityNotes": "BRIDGE (Douketis NEJM 2015): in AF on warfarin, no bridging was noninferior for ATE (0.4% vs 0.3%) with less major bleeding (1.3% vs 3.2%); not for mechanical valves or very high risk.",
+          "capabilityNotes": "Round 5 Berean CE (5 cycles): cardiology/medicine trial locks (PARADIGM-HF, ARISTOTLE, COLCOT, EAGLES, tamsulosin stones); high-level, no PHI.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 3,
-          "writeBacksInPeriod": 3,
-          "lastWriteBackAt": "2026-10-09",
-          "primarySourceCitedCount": 3,
+          "drillsDoneInPeriod": 4,
+          "writeBacksInPeriod": 4,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 4,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -184,14 +184,14 @@
           "name": "Cardiology Lead",
           "role": "Cardiology",
           "capabilityScore": 3,
-          "capabilityNotes": "REDUCE-AMI (Yndigegn NEJM 2024) + BBTC IPD (Kristensen NEJM 2026): post-MI with LVEF >=50% and no other indication, routine long-term beta-blocker did not cut death/MI/HF; not HFrEF or other indications.",
+          "capabilityNotes": "Round 5 Berean CE write-back filed (high-level, no PHI).",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 4,
-          "writeBacksInPeriod": 4,
-          "lastWriteBackAt": "2026-10-20",
-          "primarySourceCitedCount": 4,
+          "drillsDoneInPeriod": 5,
+          "writeBacksInPeriod": 5,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 5,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -200,14 +200,14 @@
           "name": "PCP Proctor",
           "role": "Primary Care Proctor",
           "capabilityScore": 3,
-          "capabilityNotes": "ACCORD (Gerstein NEJM 2008): A1c target <6.0% in high-CV-risk T2D raised mortality (HR 1.22) without lowering the primary CV outcome; reject intensive target.",
+          "capabilityNotes": "Round 5 Berean CE 5-cycle batch filed (high-level, no PHI).",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 4,
-          "writeBacksInPeriod": 4,
-          "lastWriteBackAt": "2026-10-09",
-          "primarySourceCitedCount": 4,
+          "drillsDoneInPeriod": 5,
+          "writeBacksInPeriod": 5,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 5,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -216,14 +216,14 @@
           "name": "OD Proctor",
           "role": "Optometry Proctor",
           "capabilityScore": 3,
-          "capabilityNotes": "Baltimore Eye Survey (Sommer 1991) + CNTGS 1998: IOP <21 mmHg does not rule out glaucoma; diagnose by optic nerve and field, and IOP lowering still slows NTG.",
+          "capabilityNotes": "Round 5 Berean CE: 5 eye-care claims checked against primary sources (high-level, no PHI).",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 3,
-          "writeBacksInPeriod": 3,
-          "lastWriteBackAt": "2026-10-09",
-          "primarySourceCitedCount": 3,
+          "drillsDoneInPeriod": 4,
+          "writeBacksInPeriod": 4,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 4,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -248,14 +248,14 @@
           "name": "Peptide Specialist",
           "role": "Peptide Specialist",
           "capabilityScore": 3,
-          "capabilityNotes": "GSH feedback on GCL is nonallosteric (glutamate-site + thiol-site binding), not allosteric (Richman & Meister, JBC 1975); durable suppression from exogenous GSH unproven.",
+          "capabilityNotes": "Round 5 Berean CE: 5 drills incl. SURMOUNT-5, GLP-1 RA perioperative guidance, FDA 503A/503B status (high-level, no PHI).",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 3,
-          "writeBacksInPeriod": 3,
-          "lastWriteBackAt": "2026-10-09",
-          "primarySourceCitedCount": 3,
+          "drillsDoneInPeriod": 4,
+          "writeBacksInPeriod": 4,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 4,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
@@ -272,16 +272,16 @@
           "name": "Eng Lead",
           "role": "Engineering Lead",
           "capabilityScore": 5,
-          "capabilityNotes": "ORG CE extra cycle: Berean write-back filed in lane store (details private).",
+          "capabilityNotes": "Round 5 Berean CE write-back (5 cycles) filed.",
           "skills": [
             "berean-ce-write-back",
             "handoff-packet",
             "user-path-completion"
           ],
-          "drillsDoneInPeriod": 5,
-          "writeBacksInPeriod": 5,
-          "lastWriteBackAt": "2026-10-22",
-          "primarySourceCitedCount": 5,
+          "drillsDoneInPeriod": 6,
+          "writeBacksInPeriod": 6,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 6,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -290,14 +290,14 @@
           "name": "Backend Eng",
           "role": "Backend",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: AAS allocate is fail-soft; DB commit first, AgentMail errors return a warning not a failure (actions.ts + notify.ts).",
+          "capabilityNotes": "Round 5 Berean CE: Postgres timestamptz and UPSERT, Neon pooler sizing, Vercel Cron secret, Server Actions security.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 3,
-          "writeBacksInPeriod": 3,
-          "lastWriteBackAt": "2026-10-09",
-          "primarySourceCitedCount": 3,
+          "drillsDoneInPeriod": 4,
+          "writeBacksInPeriod": 4,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 4,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -306,15 +306,15 @@
           "name": "Frontend Eng",
           "role": "Frontend",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE extra cycle: Berean write-back filed in lane store (details private).",
+          "capabilityNotes": "Round 5 Berean CE: fetch 4xx/5xx, AbortSignal.timeout, backoff dispersion, single-tab polling, navigator.onLine.",
           "skills": [
             "berean-ce-write-back",
             "user-path-completion"
           ],
-          "drillsDoneInPeriod": 4,
-          "writeBacksInPeriod": 4,
-          "lastWriteBackAt": "2026-10-22",
-          "primarySourceCitedCount": 4,
+          "drillsDoneInPeriod": 5,
+          "writeBacksInPeriod": 5,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 5,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -356,14 +356,14 @@
           "name": "Adversary",
           "role": "Red team / Review",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE extra cycle: Berean write-back filed in lane store (details private).",
+          "capabilityNotes": "Rounds 4-5 Berean CE: 10 drills on bias and replication literature (status quo bias, Camerer & Lovallo, Gigerenzer & Hoffrage, HARKing).",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 3,
-          "writeBacksInPeriod": 3,
-          "lastWriteBackAt": "2026-10-22",
-          "primarySourceCitedCount": 3,
+          "drillsDoneInPeriod": 4,
+          "writeBacksInPeriod": 4,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 4,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -412,14 +412,14 @@
           "name": "Layout IE",
           "role": "Layout IE",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: Rejected (overclaim) \u2014 Master Plan Zone H is a defined staging/expansion area.",
+          "capabilityNotes": "Rounds 4-5 Berean CE: layout drills vs IBC/IFC egress, aisle widths, 1910.179 crane clearance, SLP closeness codes.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 2,
-          "writeBacksInPeriod": 2,
-          "lastWriteBackAt": "2026-10-09",
-          "primarySourceCitedCount": 2,
+          "drillsDoneInPeriod": 3,
+          "writeBacksInPeriod": 3,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 3,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -428,14 +428,14 @@
           "name": "Controls Eng",
           "role": "Controls",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE: Rejected (overclaim) \u2014 Powder-X Rev 1 scope includes integrated line controls for the conveyor/whole line.",
+          "capabilityNotes": "Round 5 Berean CE write-back filed.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 3,
-          "writeBacksInPeriod": 3,
-          "lastWriteBackAt": "2026-10-09",
-          "primarySourceCitedCount": 3,
+          "drillsDoneInPeriod": 4,
+          "writeBacksInPeriod": 4,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 4,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -484,14 +484,14 @@
           "name": "Mason",
           "role": "Personal",
           "capabilityScore": 3,
-          "capabilityNotes": "Berean CE write-back filed.",
+          "capabilityNotes": "Rounds 4-5 Berean CE write-backs filed (details private).",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 5,
-          "writeBacksInPeriod": 5,
-          "lastWriteBackAt": "2026-10-23",
-          "primarySourceCitedCount": 5,
+          "drillsDoneInPeriod": 6,
+          "writeBacksInPeriod": 6,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 6,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -500,14 +500,14 @@
           "name": "Wealth Lead",
           "role": "Wealth",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE extra cycle: Berean write-back filed in lane store (details private).",
+          "capabilityNotes": "Rounds 4-5 Berean CE: 10 drills incl. 280G, 16(b), Rule 701, 409A FMV, 83(i), HSA 2026 limits.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 4,
-          "writeBacksInPeriod": 4,
-          "lastWriteBackAt": "2026-10-22",
-          "primarySourceCitedCount": 4,
+          "drillsDoneInPeriod": 5,
+          "writeBacksInPeriod": 5,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 5,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -516,14 +516,14 @@
           "name": "Equity Tax",
           "role": "Equity / Tax",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE extra cycle: Berean write-back filed in lane store (details private).",
+          "capabilityNotes": "Round 4 Berean CE: drills 16-20 on SE tax, partner-as-W2, noncompete, formula price, nonrecourse note purchase.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 4,
-          "writeBacksInPeriod": 4,
-          "lastWriteBackAt": "2026-10-22",
-          "primarySourceCitedCount": 4,
+          "drillsDoneInPeriod": 5,
+          "writeBacksInPeriod": 5,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 5,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -548,14 +548,14 @@
           "name": "DC Counsel",
           "role": "Counsel",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE extra cycle: Berean write-back filed in lane store (details private).",
+          "capabilityNotes": "Round 5 Berean CE drills filed.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 1,
-          "writeBacksInPeriod": 1,
-          "lastWriteBackAt": "2026-10-22",
-          "primarySourceCitedCount": 1,
+          "drillsDoneInPeriod": 2,
+          "writeBacksInPeriod": 2,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 2,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -604,14 +604,14 @@
           "name": "Allied Books",
           "role": "Books",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE extra cycle: Berean write-back filed in lane store (details private).",
+          "capabilityNotes": "Round 5 Berean CE: AP controls, unbilled billable expenses, AP record retention, backup withholding rate, routine start jitter.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 4,
-          "writeBacksInPeriod": 4,
-          "lastWriteBackAt": "2026-10-22",
-          "primarySourceCitedCount": 4,
+          "drillsDoneInPeriod": 5,
+          "writeBacksInPeriod": 5,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 5,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -620,14 +620,14 @@
           "name": "HR Helper",
           "role": "HR",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE extra cycle: Berean write-back filed in lane store (details private).",
+          "capabilityNotes": "Rounds 5-6 HR CE 5-cycle drills filed.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 5,
-          "writeBacksInPeriod": 5,
-          "lastWriteBackAt": "2026-10-22",
-          "primarySourceCitedCount": 5,
+          "drillsDoneInPeriod": 6,
+          "writeBacksInPeriod": 6,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 6,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -636,14 +636,14 @@
           "name": "Project Manager JV Deals",
           "role": "PM / JV Deals",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE extra cycle: Berean write-back filed in lane store (details private).",
+          "capabilityNotes": "Rounds 4-5 Berean CE: MISO vs ERCOT for Lake Charles, Texas SB 6 large-load, Reg D 506(b)/(c), Rev Proc 93-27, IRC 1061, SEC EDGAR fair-access pacing.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 4,
-          "writeBacksInPeriod": 4,
-          "lastWriteBackAt": "2026-10-22",
-          "primarySourceCitedCount": 4,
+          "drillsDoneInPeriod": 5,
+          "writeBacksInPeriod": 5,
+          "lastWriteBackAt": "2026-10-25",
+          "primarySourceCitedCount": 5,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
