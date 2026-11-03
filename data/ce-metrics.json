@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-10-25",
+  "asOf": "2026-11-03",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -216,14 +216,14 @@
           "name": "OD Proctor",
           "role": "Optometry Proctor",
           "capabilityScore": 3,
-          "capabilityNotes": "Round 5 Berean CE: 5 eye-care claims checked against primary sources (high-level, no PHI).",
+          "capabilityNotes": "Berean CE recheck: GCA, normal ESR/CRP does not exclude (Kermani 2012, Semin Arthritis Rheum, PMID 22119103); locked, consistent with CE #1.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 4,
-          "writeBacksInPeriod": 4,
-          "lastWriteBackAt": "2026-10-25",
-          "primarySourceCitedCount": 4,
+          "drillsDoneInPeriod": 5,
+          "writeBacksInPeriod": 5,
+          "lastWriteBackAt": "2026-11-03",
+          "primarySourceCitedCount": 5,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
