@@ -1,0 +1,5 @@
+{
+  "agentId": "eng-lead",
+  "date": "2026-11-09",
+  "notes": "Berean CE: Next.js 15 Maintenance LTS extended through Jan 31, 2027 (nextjs.org/support-policy); stopgap is now 15.5.29, not 15.5.28."
+}
