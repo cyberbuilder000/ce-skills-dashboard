@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-09",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -272,16 +272,16 @@
           "name": "Eng Lead",
           "role": "Engineering Lead",
           "capabilityScore": 5,
-          "capabilityNotes": "Round 5 Berean CE write-back (5 cycles) filed.",
+          "capabilityNotes": "Berean CE: Next.js 15 Maintenance LTS extended through Jan 31, 2027 (nextjs.org/support-policy); stopgap is now 15.5.29, not 15.5.28.",
           "skills": [
             "berean-ce-write-back",
             "handoff-packet",
             "user-path-completion"
           ],
-          "drillsDoneInPeriod": 6,
-          "writeBacksInPeriod": 6,
-          "lastWriteBackAt": "2026-10-25",
-          "primarySourceCitedCount": 6,
+          "drillsDoneInPeriod": 7,
+          "writeBacksInPeriod": 7,
+          "lastWriteBackAt": "2026-11-09",
+          "primarySourceCitedCount": 7,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -484,14 +484,14 @@
           "name": "Mason",
           "role": "Personal",
           "capabilityScore": 3,
-          "capabilityNotes": "Rounds 4-5 Berean CE write-backs filed (details private).",
+          "capabilityNotes": "Berean CE: Texas nonsubscriber notice \u2014 DWC Form-005 is required only if the employee is subject to coverage under the Act (Labor Code \u00a7\u00a7406.004, .091; 28 TAC \u00a7110.103); hire-time Notice 5 and workplace posting sit on \u00a7406.005 / 28 TAC \u00a7110.101.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 6,
-          "writeBacksInPeriod": 6,
-          "lastWriteBackAt": "2026-10-25",
-          "primarySourceCitedCount": 6,
+          "drillsDoneInPeriod": 7,
+          "writeBacksInPeriod": 7,
+          "lastWriteBackAt": "2026-11-09",
+          "primarySourceCitedCount": 7,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -500,14 +500,14 @@
           "name": "Wealth Lead",
           "role": "Wealth",
           "capabilityScore": 3,
-          "capabilityNotes": "Rounds 4-5 Berean CE: 10 drills incl. 280G, 16(b), Rule 701, 409A FMV, 83(i), HSA 2026 limits.",
+          "capabilityNotes": "Berean CE: QSBS \u00a71202 after Pub. L. 119-21 \u2014 stock issued after July 4, 2025: 50/75/100% exclusion at 3/4/5 years, $15M per-issuer cap (indexed after 2026), $75M gross-assets test.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 5,
-          "writeBacksInPeriod": 5,
-          "lastWriteBackAt": "2026-10-25",
-          "primarySourceCitedCount": 5,
+          "drillsDoneInPeriod": 6,
+          "writeBacksInPeriod": 6,
+          "lastWriteBackAt": "2026-11-09",
+          "primarySourceCitedCount": 6,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -620,14 +620,14 @@
           "name": "HR Helper",
           "role": "HR",
           "capabilityScore": 3,
-          "capabilityNotes": "Rounds 5-6 HR CE 5-cycle drills filed.",
+          "capabilityNotes": "Berean CE: Texas final wages due by the 6th day after discharge or the next payday after resignation (Lab. Code 61.014); PTO/vacation payout only if a written policy or agreement promises it (61.001(7)(B); 40 TAC 821.25).",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 6,
-          "writeBacksInPeriod": 6,
-          "lastWriteBackAt": "2026-10-25",
-          "primarySourceCitedCount": 6,
+          "drillsDoneInPeriod": 7,
+          "writeBacksInPeriod": 7,
+          "lastWriteBackAt": "2026-11-09",
+          "primarySourceCitedCount": 7,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
