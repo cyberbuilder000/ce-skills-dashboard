@@ -200,14 +200,14 @@
           "name": "PCP Proctor",
           "role": "Primary Care Proctor",
           "capabilityScore": 3,
-          "capabilityNotes": "Round 5 Berean CE 5-cycle batch filed (high-level, no PHI).",
+          "capabilityNotes": "Berean CE: routine general health checks do not reduce mortality (Inter99, BMJ 2014, PMID 24912589, mortality HR 1.00; Cochrane 2019, PMID 30699470, RR 1.00).",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 5,
-          "writeBacksInPeriod": 5,
-          "lastWriteBackAt": "2026-10-25",
-          "primarySourceCitedCount": 5,
+          "drillsDoneInPeriod": 6,
+          "writeBacksInPeriod": 6,
+          "lastWriteBackAt": "2026-11-09",
+          "primarySourceCitedCount": 6,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -396,14 +396,14 @@
           "name": "IE Lead",
           "role": "Industrial Engineering Lead",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE extra cycle: Berean write-back filed in lane store (details private).",
+          "capabilityNotes": "Berean CE: Powder-X Rev 1 hopper access hardware (caged ladder, service platform, handrails) is not verified complete OSHA fall protection; a cage is not a ladder safety system (29 CFR 1910.21); platforms at 4 ft or more need a guardrail system (1910.28(b)(1), 1910.29(b)); climbs over 24 ft need a ladder safety system or personal fall arrest system (1910.28(b)(9)).",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 4,
-          "writeBacksInPeriod": 4,
-          "lastWriteBackAt": "2026-10-22",
-          "primarySourceCitedCount": 4,
+          "drillsDoneInPeriod": 5,
+          "writeBacksInPeriod": 5,
+          "lastWriteBackAt": "2026-11-09",
+          "primarySourceCitedCount": 5,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -516,14 +516,14 @@
           "name": "Equity Tax",
           "role": "Equity / Tax",
           "capabilityScore": 3,
-          "capabilityNotes": "Round 4 Berean CE: drills 16-20 on SE tax, partner-as-W2, noncompete, formula price, nonrecourse note purchase.",
+          "capabilityNotes": "Berean CE: QSBS \u00a71202 after Pub. L. 119-21 reconfirmed \u2014 stock acquired after July 4, 2025: 50/75/100% exclusion at 3/4/5 years, $15M per-issuer cap (indexed after 2026), $75M gross-assets test; LLC membership interests are not QSBS (\u00a71202(c)(1)); a property-for-stock conversion starts the holding-period clock under \u00a71202(i)(1).",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 5,
-          "writeBacksInPeriod": 5,
-          "lastWriteBackAt": "2026-10-25",
-          "primarySourceCitedCount": 5,
+          "drillsDoneInPeriod": 6,
+          "writeBacksInPeriod": 6,
+          "lastWriteBackAt": "2026-11-09",
+          "primarySourceCitedCount": 6,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -636,14 +636,14 @@
           "name": "Project Manager JV Deals",
           "role": "PM / JV Deals",
           "capabilityScore": 3,
-          "capabilityNotes": "Rounds 4-5 Berean CE: MISO vs ERCOT for Lake Charles, Texas SB 6 large-load, Reg D 506(b)/(c), Rev Proc 93-27, IRC 1061, SEC EDGAR fair-access pacing.",
+          "capabilityNotes": "Berean CE: TCEQ paused issuance of permits for infrastructure directly supporting data centers since Sept 21, 2026 (Gov. Abbott letter; TCEQ Oct 19 compliance letter); a behind-the-meter gas microgrid still needs NG EGU standard-permit written notification, so scheduled TCEQ registration dates during the pause are planning assumptions only.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 5,
-          "writeBacksInPeriod": 5,
-          "lastWriteBackAt": "2026-10-25",
-          "primarySourceCitedCount": 5,
+          "drillsDoneInPeriod": 6,
+          "writeBacksInPeriod": 6,
+          "lastWriteBackAt": "2026-11-09",
+          "primarySourceCitedCount": 6,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -692,14 +692,14 @@
           "name": "Darcy",
           "role": "Chief of Staff",
           "capabilityScore": 4,
-          "capabilityNotes": "Discernment sprint: failure-mode review locked 7 rules (route don't author, verify before stating or correcting, voice-name read-back, one notice per event, screenshot from real capture, re-read before second edit, honest coverage). Primary-source refresh: IRS Pub 926 (2026) household FICA threshold $3,000, FUTA $1,000/qtr; AgentMail send API supports cc/bcc.",
+          "capabilityNotes": "Instructions CE: a requirement stays open until the stated deliverable exists (research filed, or a form submitted or explicitly blocked with an owner); a conversational answer does not close it.",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 5,
-          "writeBacksInPeriod": 5,
-          "lastWriteBackAt": "2026-10-24",
-          "primarySourceCitedCount": 5,
+          "drillsDoneInPeriod": 6,
+          "writeBacksInPeriod": 6,
+          "lastWriteBackAt": "2026-11-09",
+          "primarySourceCitedCount": 6,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         }
