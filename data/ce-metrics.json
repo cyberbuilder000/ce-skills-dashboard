@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-11-09",
+  "asOf": "2026-11-16",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -588,14 +588,14 @@
           "name": "Hayes Calder",
           "role": "Work Lead",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE extra cycle: Berean write-back filed in lane store (details private).",
+          "capabilityNotes": "Berean CE: 712 Austin Ave live for-sale ask is $999,000 (LoopNet listing 34834651 and Kelly Commercial); CityFeet was not verified directly. https://drive.google.com/file/d/1h2TngXvHTuOlwofsDxPd5MlTZ3PgXESF/view",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 4,
-          "writeBacksInPeriod": 4,
-          "lastWriteBackAt": "2026-10-22",
-          "primarySourceCitedCount": 4,
+          "drillsDoneInPeriod": 5,
+          "writeBacksInPeriod": 5,
+          "lastWriteBackAt": "2026-11-16",
+          "primarySourceCitedCount": 5,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
