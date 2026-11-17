@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-11-16",
+  "asOf": "2026-11-17",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -184,14 +184,14 @@
           "name": "Cardiology Lead",
           "role": "Cardiology",
           "capabilityScore": 3,
-          "capabilityNotes": "Round 5 Berean CE write-back filed (high-level, no PHI).",
+          "capabilityNotes": "Berean CE: Digoxin is mortality-neutral in HFrEF with sinus rhythm (DIG trial, NEJM 1997, PMID 9036306; all-cause death RR 0.99). Benefit is fewer HF hospitalizations (RR 0.72). https://docs.google.com/document/d/1-YfT68jFSjEFEKJN773zwVMx1GQbd5Gn/edit",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 5,
-          "writeBacksInPeriod": 5,
-          "lastWriteBackAt": "2026-10-25",
-          "primarySourceCitedCount": 5,
+          "drillsDoneInPeriod": 6,
+          "writeBacksInPeriod": 6,
+          "lastWriteBackAt": "2026-11-17",
+          "primarySourceCitedCount": 6,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
