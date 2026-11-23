@@ -1,0 +1,5 @@
+{
+  "agentId": "eng-lead",
+  "date": "2026-11-23",
+  "notes": "Berean CE: Next.js 15.5.29 remains the 15.x stopgap (security releases through 2027-01-31); 16.x upgrade floor is >=16.4.5 because 16.0.0-16.4.0 has critical RCE GHSA-673q. Dose Tracker is still on 15.5.27. https://docs.google.com/document/d/1ewhpgbkWjoIE07GxbTysOKxDDs-UWz7Bq8Sj3Htsmac/edit"
+}
