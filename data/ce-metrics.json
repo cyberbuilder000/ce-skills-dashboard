@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "asOf": "2026-11-23",
+  "asOf": "2026-11-24",
   "periodDays": {
     "medical": 7,
     "biweekly": 14
@@ -232,14 +232,14 @@
           "name": "Med Evidence",
           "role": "Evidence",
           "capabilityScore": 3,
-          "capabilityNotes": "ORG CE extra cycle: Berean write-back filed in lane store (details private).",
+          "capabilityNotes": "Berean CE: a favorable surrogate shift does not establish outcome benefit (ILLUMINATE, NEJM 2007, PMID 17984165; torcetrapib raised HDL-C 72.1% and lowered LDL-C 24.9%, but major CV events HR 1.25 and all-cause death HR 1.58). https://docs.google.com/document/d/1pdcGOwbdxIshvMbhWMAJTpBzW7C25hvt/edit",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 4,
-          "writeBacksInPeriod": 4,
-          "lastWriteBackAt": "2026-10-22",
-          "primarySourceCitedCount": 4,
+          "drillsDoneInPeriod": 5,
+          "writeBacksInPeriod": 5,
+          "lastWriteBackAt": "2026-11-24",
+          "primarySourceCitedCount": 5,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -484,14 +484,14 @@
           "name": "Mason",
           "role": "Personal",
           "capabilityScore": 3,
-          "capabilityNotes": "Berean CE: Texas nonsubscriber notice \u2014 DWC Form-005 is required only if the employee is subject to coverage under the Act (Labor Code \u00a7\u00a7406.004, .091; 28 TAC \u00a7110.103); hire-time Notice 5 and workplace posting sit on \u00a7406.005 / 28 TAC \u00a7110.101.",
+          "capabilityNotes": "Berean CE: Form 304 lists governing persons of a foreign LLC (BOC ss 1.002, 9.004); members of a manager-managed LLC are not governing persons by membership alone; BOC s 9.251(16) can excuse a manager LLC from its own Texas registration. Tax Code s 171.203 PIR requires officers or directors, not managers or members as such. https://docs.google.com/document/d/1dYTmj6SA5Mg8JoK53_2Cj2bnhHy2kePV/edit",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 7,
-          "writeBacksInPeriod": 7,
-          "lastWriteBackAt": "2026-11-09",
-          "primarySourceCitedCount": 7,
+          "drillsDoneInPeriod": 8,
+          "writeBacksInPeriod": 8,
+          "lastWriteBackAt": "2026-11-23",
+          "primarySourceCitedCount": 8,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
@@ -620,14 +620,14 @@
           "name": "HR Helper",
           "role": "HR",
           "capabilityScore": 3,
-          "capabilityNotes": "Berean CE: Texas final wages due by the 6th day after discharge or the next payday after resignation (Lab. Code 61.014); PTO/vacation payout only if a written policy or agreement promises it (61.001(7)(B); 40 TAC 821.25).",
+          "capabilityNotes": "Berean CE: a JD physical requirement used to screen applicants is a qualification standard (29 CFR 1630.2(q)); if it screens out people with disabilities, the employer must show it is job-related and consistent with business necessity, and cannot exclude someone who could meet it with reasonable accommodation (29 CFR 1630.10(a); 42 U.S.C. 12112(b)(6); 1630.15(b)). https://docs.google.com/document/d/1S18CxsyCe9uZ8bdXwBzA87JEx7rCXZbD/edit",
           "skills": [
             "berean-ce-write-back"
           ],
-          "drillsDoneInPeriod": 7,
-          "writeBacksInPeriod": 7,
-          "lastWriteBackAt": "2026-11-09",
-          "primarySourceCitedCount": 7,
+          "drillsDoneInPeriod": 8,
+          "writeBacksInPeriod": 8,
+          "lastWriteBackAt": "2026-11-23",
+          "primarySourceCitedCount": 8,
           "skillsPromotedCount": 0,
           "wallCompliant": true
         },
